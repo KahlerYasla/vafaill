@@ -13,7 +13,7 @@ module.exports = {
                 // secondary: "#FF885B",
 
                 // bg: "#141517",
-                bg: "#000",
+                bg: "#1b1616",
             },
         },
     },

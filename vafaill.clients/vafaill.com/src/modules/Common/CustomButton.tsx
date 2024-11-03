@@ -11,7 +11,7 @@ export const CustomButton: React.FC<CustomButtonProps> = ({
 }) => {
     return (
         <button
-            className={`h-fit w-fit text-nowrap border-b-4 border-white bg-white bg-opacity-5 px-3 py-1 pt-[5.5px] text-xs font-bold text-white ${className}`}
+            className={`h-fit w-fit text-nowrap border-b-4 border-white border-opacity-20 px-3 py-1 pt-[5.5px] font-bold text-white ${className}`}
         >
             {children}
         </button>

@@ -23,11 +23,11 @@ export const HomeContainer: React.FC<HomeContainerProps> = ({ className }) => {
                 <img
                     src="/images/banners/0.png"
                     alt="banner"
-                    className="custom-border col-span-full hidden h-[6.5rem] w-full border-b-2 object-cover object-center opacity-60 shadow-xl shadow-gray-950 grayscale-[.75] md:block"
+                    className="col-span-full hidden h-[6.2rem] w-full object-cover object-center opacity-60 grayscale-[.75] md:block"
                 />
             </div>
             <div
-                className={`custom-border grid grid-cols-4 gap-y-6 px-4 pb-12 text-xs md:pt-8 ${className}`}
+                className={`custom-border grid grid-cols-4 gap-y-16 px-4 pb-12 md:pt-8 ${className}`}
             >
                 {renderHomeContainer()}
                 <CustomSeperator />
@@ -47,16 +47,16 @@ const renderHomeContainer = () => {
                 className="col-span-full mx-auto text-primary md:hidden"
                 size={"40px"}
             />
-            <h1 className="col-span-full mx-auto -mt-4 text-center text-sm font-bold text-white md:col-span-1 md:mx-0 md:mt-0 md:hidden md:text-start">
-                Vafaill
+            <h1 className="col-span-full mx-auto -mt-4 text-center font-bold text-white md:col-span-1 md:mx-0 md:mt-0 md:hidden md:text-start">
+                vafaill
                 <br />
-                <span className="text-xs font-normal text-white text-opacity-80">
-                    {"</>"} Solutions
+                <span className="font-normal text-white text-opacity-80">
+                    {"</>"} labs
                 </span>
             </h1>
-            <h1 className="col-span-full text-nowrap text-center md:col-span-3 md:mr-auto md:text-start md:text-white">
+            <h1 className="col-span-full text-nowrap text-center md:col-span-3 md:mr-auto md:text-start">
                 <span>
-                    Software engineering & consulting over years
+                    software engineering & consulting over years
                     <br />
                     <span className="font-bold italic text-white">
                         grow exponentially
@@ -67,33 +67,31 @@ const renderHomeContainer = () => {
             <CustomButton className="col-span col-span-full mx-auto md:col-span-1 md:ml-auto md:mr-0">
                 Read All About Us
             </CustomButton>
-            <CustomSeperator />
-            <h1 className="col-span-full text-center text-white underline underline-offset-4 md:col-span-1 md:text-start">
-                <span className="">Our story at a glance</span>
+            <h1 className="col-span-full text-center text-white md:col-span-1 md:text-start">
+                <span className=""></span>
             </h1>
-            <div className="col-span-full flex justify-around text-center md:col-span-3 md:mt-0 md:justify-end md:gap-16">
-                <div>
-                    <span className="text-sm font-bold text-primary">2+</span>
+            <div className="col-span-full flex justify-around text-end md:col-span-3 md:mt-0 md:justify-end md:gap-8">
+                <div className="border-r border-white border-opacity-10 px-4">
+                    <span className="font-bold text-primary">2+</span>
                     <br />
                     <span className="text-white">years</span>
                 </div>
-                <div>
-                    <span className="text-sm font-bold text-primary">10+</span>
+                <div className="border-r border-white border-opacity-10 px-4">
+                    <span className="font-bold text-primary">10+</span>
                     <br />
                     <span className="text-white">partners</span>
                 </div>
-                <div>
-                    <span className="text-sm font-bold text-primary">4+</span>
+                <div className="border-r border-white border-opacity-10 px-4">
+                    <span className="font-bold text-primary">4+</span>
                     <br />
                     <span className="text-white">countries</span>
                 </div>
-                <div>
-                    <span className="text-sm font-bold text-primary">4M+</span>
+                <div className="border-r border-white border-opacity-10 px-4">
+                    <span className="font-bold text-primary">4M+</span>
                     <br />
                     <span className="text-white">users</span>
                 </div>
             </div>
-            <CustomSeperator />
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
                 <h1 className="col-span-3 text-white underline underline-offset-4">
                     Offers
@@ -156,8 +154,6 @@ const renderHomeContainer = () => {
                 </div>
             </div>
 
-            <CustomSeperator />
-
             <h1 className="col-span-3 text-white underline underline-offset-4">
                 Showcase
             </h1>
@@ -200,7 +196,6 @@ const renderHomeContainer = () => {
                     <p className="absolute bottom-2 left-3 text-white">Wayou</p>
                 </button>
             </div>
-            <CustomSeperator />
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
                 <h1 className="col-span-3 text-white underline underline-offset-4">
                     Post by categories (3)
@@ -245,7 +240,6 @@ const renderHomeContainer = () => {
                     </button>
                 </div>
             </div>
-            <CustomSeperator />
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
                 <h1 className="col-span-3 mb-2 text-white underline underline-offset-4">
                     Team
@@ -286,7 +280,7 @@ const renderProjectsContainer = () => {
     return (
         <>
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-2">
-                <h1 className="col-span-full text-xs text-white underline underline-offset-4">
+                <h1 className="col-span-full text-white underline underline-offset-4">
                     Projects
                 </h1>
             </div>

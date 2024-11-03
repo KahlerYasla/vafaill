@@ -19,19 +19,19 @@ export const NavBar: React.FC<NavBarProps> = ({ className }) => {
         >
             <div className="ml-auto flex w-fit flex-col items-end gap-0">
                 <PiTriangleDashed className="text-primary" size={"40px"} />
-                <p className="mt-2 text-xs font-bold text-white">Vafaill</p>
-                <p className="mt-[1px] text-xs text-white text-opacity-60">
-                    {"</>"} solutions
+                <p className="mt-2 font-bold text-white">vafaill</p>
+                <p className="mt-[1px] text-white text-opacity-60">
+                    {"</>"} labs
                 </p>
             </div>
-            <CustomSeperator className="mb-1 mt-0 w-[7.1rem]" />
+            <CustomSeperator className="mb-1 ml-auto mt-0 w-[7.1rem]" />
             <div
                 onClick={() => {}}
                 className="ml-auto flex w-fit items-center gap-3 hover:cursor-pointer"
             >
                 <div className="flex flex-col">
-                    <p className="mt-1 text-xs text-white">home</p>
-                    <p className="text-xs">about us</p>
+                    <p className="mt-1 text-white">home</p>
+                    <p className="">about us</p>
                 </div>
             </div>
             <div
@@ -39,8 +39,8 @@ export const NavBar: React.FC<NavBarProps> = ({ className }) => {
                 className="ml-auto flex w-fit items-center gap-3 hover:cursor-pointer"
             >
                 <div className="flex flex-col">
-                    <p className="mt-1 text-xs text-white">projects</p>
-                    <p className="text-xs">benchmarks</p>
+                    <p className="mt-1 text-white">projects</p>
+                    <p className="">benchmarks</p>
                 </div>
             </div>
             <div
@@ -48,8 +48,8 @@ export const NavBar: React.FC<NavBarProps> = ({ className }) => {
                 className="ml-auto flex w-fit items-center gap-3 hover:cursor-pointer"
             >
                 <div className="flex flex-col">
-                    <p className="mt-1 text-xs text-white">contact</p>
-                    <p className="text-xs">form</p>
+                    <p className="mt-1 text-white">contact</p>
+                    <p className="">form</p>
                 </div>
             </div>
             <div
@@ -57,8 +57,8 @@ export const NavBar: React.FC<NavBarProps> = ({ className }) => {
                 className="ml-auto flex w-fit items-center gap-3 hover:cursor-pointer"
             >
                 <div className="flex flex-col">
-                    <p className="mt-1 text-xs text-white">legal</p>
-                    <p className="text-xs">policies</p>
+                    <p className="mt-1 text-white">legal</p>
+                    <p className="">policies</p>
                 </div>
             </div>
         </nav>
