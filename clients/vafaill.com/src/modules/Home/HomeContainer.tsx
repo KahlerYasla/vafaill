@@ -8,8 +8,8 @@ import { HiOutlineSupport } from "react-icons/hi"
 import { MdOutlineDashboardCustomize } from "react-icons/md"
 
 // Components
-import { CustomButton } from "../Common"
-import { CustomSeperator } from "../Common/CustomSeperator"
+import { CustomButton } from "../common"
+import { CustomSeperator } from "../common/CustomSeperator"
 import { PiTriangleDashed } from "react-icons/pi"
 
 interface HomeContainerProps {
@@ -56,148 +56,152 @@ const renderHomeContainer = () => {
             </h1>
             <h1 className="col-span-full text-nowrap text-center md:col-span-3 md:mr-auto md:text-start">
                 <span>
-                    software engineering & consulting over years
-                    <br />
                     <span className="font-bold italic text-white">
-                        grow exponentially
-                    </span>{" "}
-                    & expand your business
+                        grow exponentially...
+                    </span>
+                    <br />
+                    software engineering & consulting over the years
                 </span>
             </h1>
             <CustomButton className="col-span col-span-full mx-auto md:col-span-1 md:ml-auto md:mr-0">
                 Read All About Us
             </CustomButton>
-            <h1 className="col-span-full text-center text-white md:col-span-1 md:text-start">
-                <span className=""></span>
+            <h1 className="col-span-2">
+                <span className="text-white">where we reach in</span>
+                <br />
+                <span className="font-bold">3+</span>
+                &nbsp;
+                <span className="">years</span>
             </h1>
-            <div className="col-span-full flex justify-around text-end md:col-span-3 md:mt-0 md:justify-end md:gap-8">
-                <div className="border-r border-white border-opacity-10 px-4">
-                    <span className="font-bold text-primary">2+</span>
+            <div className="col-span-full flex justify-around text-center md:col-span-2 md:mt-0 md:justify-end md:gap-16">
+                <div className="">
+                    <span className="font-bold text-white">10+</span>
                     <br />
-                    <span className="text-white">years</span>
+                    <span className="">partners</span>
                 </div>
-                <div className="border-r border-white border-opacity-10 px-4">
-                    <span className="font-bold text-primary">10+</span>
+                <div className="">
+                    <span className="font-bold text-white">4+</span>
                     <br />
-                    <span className="text-white">partners</span>
+                    <span className="">countries</span>
                 </div>
-                <div className="border-r border-white border-opacity-10 px-4">
-                    <span className="font-bold text-primary">4+</span>
+                <div className="">
+                    <span className="font-bold text-white">4M+</span>
                     <br />
-                    <span className="text-white">countries</span>
-                </div>
-                <div className="border-r border-white border-opacity-10 px-4">
-                    <span className="font-bold text-primary">4M+</span>
-                    <br />
-                    <span className="text-white">users</span>
+                    <span className="">users</span>
                 </div>
             </div>
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
-                <h1 className="col-span-3 text-white underline underline-offset-4">
-                    Offers
-                </h1>
+                <h1 className="col-span-3 text-white">Offers</h1>
                 <div className="col-span-full grid grid-flow-row grid-cols-2 gap-4 md:grid-cols-5">
                     <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
-                        <CgWebsite className="mx-auto h-[100%]" size={"30px"} />
+                        <CgWebsite className="mx-auto h-[100%]" size={"25px"} />
                         <p className="absolute right-3 top-2 text-white">
-                            £600/site &lt;
+                            £600
                         </p>
                         <p className="absolute bottom-2 left-3 text-white">
-                            Web App
+                            website
                         </p>
                     </button>
                     <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
-                        <CiMobile1 className="mx-auto h-[100%]" size={"30px"} />
+                        <CiMobile1 className="mx-auto h-[100%]" size={"25px"} />
                         <p className="absolute right-3 top-2 text-white">
-                            £600/app &lt;
+                            £600
                         </p>
                         <p className="absolute bottom-2 left-3 text-white">
-                            Mobile App
+                            mobile app
                         </p>
                     </button>
                     <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
                         <LuServerCog
                             className="mx-auto h-[100%]"
-                            size={"30px"}
+                            size={"25px"}
                         />
                         <p className="absolute right-3 top-2 text-white">
-                            £100 &lt;
+                            £100
                         </p>
                         <p className="absolute bottom-2 left-3 text-white">
-                            Web Service
+                            service
                         </p>
                     </button>
                     <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
                         <HiOutlineSupport
                             className="mx-auto h-[100%]"
-                            size={"30px"}
+                            size={"25px"}
                         />
                         <p className="absolute right-3 top-2 text-white">
-                            £40/month &lt;
+                            £40/m
                         </p>
                         <p className="absolute bottom-2 left-3 text-start text-white">
-                            Maintenance
+                            maintenance
                         </p>
                     </button>
                     <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
                         <MdOutlineDashboardCustomize
                             className="mx-auto h-[100%]"
-                            size={"30px"}
+                            size={"25px"}
                         />
                         <p className="absolute right-3 top-2 text-white">
-                            £60/month &lt;
+                            £60/m
                         </p>
                         <p className="absolute bottom-2 left-3 text-start text-white">
+                            custom
+                        </p>
+                    </button>
+                    <p className="col-span-full flex justify-end border-r-4 border-primary px-4 text-end text-xs md:col-span-5">
+                        prices are starting from; end prices calculated by
+                        <br />
+                        minimal wage in UK * 1.75 * hours will be spent on
+                        project
+                    </p>
+                </div>
+            </div>
+
+            <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
+                <h1 className="col-span-3 text-white">Showcase</h1>
+                <button className="flex flex-row items-center justify-end gap-2 text-start text-white">
+                    expand
+                    <BiPlusMedical className="mt-[1px] text-primary" />
+                </button>
+                <div className="col-span-full -mt-2 grid grid-flow-row grid-cols-2 gap-4 md:grid-cols-5">
+                    <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
+                        <img
+                            src="https://picsum.photos/500"
+                            alt="makroteknik"
+                            className="absolute top-0 h-full w-full opacity-30 grayscale-[.0]"
+                        />
+                        <p className="absolute right-3 top-2">Web App</p>
+                        <p className="absolute bottom-2 left-3 text-white">
+                            Makroteknik
+                        </p>
+                    </button>
+                    <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
+                        <img
+                            src="https://picsum.photos/501"
+                            alt="makroteknik"
+                            className="absolute top-0 h-full w-full opacity-30 grayscale-[.0]"
+                        />
+                        <p className="absolute right-3 top-2">Mobile App</p>
+                        <p className="absolute bottom-2 left-3 text-start text-white">
+                            Pomodoro Shell
+                        </p>
+                    </button>
+                    <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
+                        <img
+                            src="https://picsum.photos/502"
+                            alt="makroteknik"
+                            className="absolute top-0 h-full w-full opacity-30 grayscale-[.0]"
+                        />
+                        <p className="absolute right-3 top-2 text-end">
                             Custom Software
+                        </p>
+                        <p className="absolute bottom-2 left-3 text-white">
+                            Wayou
                         </p>
                     </button>
                 </div>
             </div>
-
-            <h1 className="col-span-3 text-white underline underline-offset-4">
-                Showcase
-            </h1>
-            <button className="flex flex-row items-center justify-end gap-2 text-start text-white">
-                expand
-                <BiPlusMedical className="mt-[1px] text-primary" />
-            </button>
-            <div className="col-span-full -mt-2 grid grid-flow-row grid-cols-2 gap-4 md:grid-cols-5">
-                <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
-                    <img
-                        src="https://picsum.photos/500"
-                        alt="makroteknik"
-                        className="absolute top-0 h-full w-full opacity-30 grayscale-[.0]"
-                    />
-                    <p className="absolute right-3 top-2">Web App</p>
-                    <p className="absolute bottom-2 left-3 text-white">
-                        Makroteknik
-                    </p>
-                </button>
-                <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
-                    <img
-                        src="https://picsum.photos/501"
-                        alt="makroteknik"
-                        className="absolute top-0 h-full w-full opacity-30 grayscale-[.0]"
-                    />
-                    <p className="absolute right-3 top-2">Mobile App</p>
-                    <p className="absolute bottom-2 left-3 text-start text-white">
-                        Pomodoro Shell
-                    </p>
-                </button>
-                <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
-                    <img
-                        src="https://picsum.photos/502"
-                        alt="makroteknik"
-                        className="absolute top-0 h-full w-full opacity-30 grayscale-[.0]"
-                    />
-                    <p className="absolute right-3 top-2 text-end">
-                        Custom Software
-                    </p>
-                    <p className="absolute bottom-2 left-3 text-white">Wayou</p>
-                </button>
-            </div>
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
-                <h1 className="col-span-3 text-white underline underline-offset-4">
+                <h1 className="col-span-3 text-white">
                     Post by categories (3)
                 </h1>
                 <button className="flex flex-row items-center justify-end gap-2 text-end text-white">
@@ -241,9 +245,7 @@ const renderHomeContainer = () => {
                 </div>
             </div>
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
-                <h1 className="col-span-3 mb-2 text-white underline underline-offset-4">
-                    Team
-                </h1>
+                <h1 className="col-span-3 mb-2 text-white">Team</h1>
                 <button className="flex flex-row items-center justify-end gap-2 text-end text-white">
                     expand
                     <BiPlusMedical className="mt-[1px] text-primary" />
@@ -280,9 +282,7 @@ const renderProjectsContainer = () => {
     return (
         <>
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-2">
-                <h1 className="col-span-full text-white underline underline-offset-4">
-                    Projects
-                </h1>
+                <h1 className="col-span-full text-white">Projects</h1>
             </div>
         </>
     )

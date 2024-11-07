@@ -19,6 +19,8 @@ export const LayoutContainer: React.FC<LayoutContainerProps> = ({
                 <NavBar className="fixed left-0 top-0 z-50 hidden w-fit text-end md:sticky md:flex" />
                 <div className="relative px-6">
                     <Outlet />
+                    {/* expander */}
+                    <div className="w-[900px]"></div>
                 </div>
                 {/* <Footer /> */}
                 <button className="fixed bottom-5 left-5 rounded-full bg-primary bg-opacity-30 p-3 md:hidden">
