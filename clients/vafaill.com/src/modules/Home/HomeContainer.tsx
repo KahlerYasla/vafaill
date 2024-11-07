@@ -64,7 +64,7 @@ const renderHomeContainer = () => {
                 </span>
             </h1>
             <CustomButton className="col-span col-span-full mx-auto md:col-span-1 md:ml-auto md:mr-0">
-                Read All About Us
+                about us
             </CustomButton>
             <h1 className="col-span-2">
                 <span className="text-white">where we reach in</span>
