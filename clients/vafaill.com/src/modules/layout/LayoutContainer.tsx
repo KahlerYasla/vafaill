@@ -1,0 +1,32 @@
+import { Outlet } from "react-router-dom"
+import { NavBar } from "./components/NavBar"
+
+// Icons
+import { GiHamburgerMenu } from "react-icons/gi"
+
+interface LayoutContainerProps {
+    className?: string
+}
+
+export const LayoutContainer: React.FC<LayoutContainerProps> = ({
+    className,
+}) => {
+    return (
+        <>
+            <main
+                className={`mx-auto flex min-h-screen w-screen max-w-[1250px] justify-center ${className}`}
+            >
+                <NavBar className="sticky z-50 hidden w-fit text-end md:fixed md:flex" />
+                <div className="relative mt-16 px-6">
+                    <Outlet />
+                    {/* expander */}
+                    <div className="w-[900px]"></div>
+                </div>
+                {/* <Footer /> */}
+                <button className="fixed bottom-5 left-5 rounded-full bg-primary bg-opacity-30 p-3 md:hidden">
+                    <GiHamburgerMenu size={"25px"} className="text-primary" />
+                </button>
+            </main>
+        </>
+    )
+}
