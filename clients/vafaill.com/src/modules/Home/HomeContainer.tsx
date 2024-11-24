@@ -19,13 +19,6 @@ interface HomeContainerProps {
 export const HomeContainer: React.FC<HomeContainerProps> = ({ className }) => {
     return (
         <div className={`py-10`}>
-            <div className="md:block">
-                <img
-                    src="/images/banners/0.png"
-                    alt="banner"
-                    className="col-span-full hidden h-[6.2rem] w-full object-cover object-center opacity-60 grayscale-[.75] md:block"
-                />
-            </div>
             <div
                 className={`custom-border grid grid-cols-4 gap-y-16 px-4 pb-12 md:pt-8 ${className}`}
             >
@@ -56,14 +49,14 @@ const renderHomeContainer = () => {
             </h1>
             <h1 className="col-span-full text-nowrap text-center md:col-span-3 md:mr-auto md:text-start">
                 <span>
-                    <span className="font-bold italic text-white">
+                    <span className="font-bold text-white">
                         grow exponentially...
                     </span>
                     <br />
                     software engineering & consulting over the years
                 </span>
             </h1>
-            <CustomButton className="col-span col-span-full mx-auto md:col-span-1 md:ml-auto md:mr-0">
+            <CustomButton className="col-span col-span-full mx-auto border-b-4 border-primary font-bold text-black md:col-span-1 md:ml-auto md:mr-0">
                 about us
             </CustomButton>
             <h1 className="col-span-2">
@@ -147,7 +140,7 @@ const renderHomeContainer = () => {
                             custom
                         </p>
                     </button>
-                    <p className="col-span-full flex justify-end border-r-4 border-primary px-4 text-end text-xs md:col-span-5">
+                    <p className="col-span-full flex justify-start border-l-4 border-white px-4 text-xs md:col-span-5">
                         prices are starting from; end prices calculated by
                         <br />
                         minimal wage in UK * 1.75 * hours will be spent on
