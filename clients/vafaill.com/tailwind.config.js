@@ -12,8 +12,7 @@ module.exports = {
                 // primary: "#FF885B",
                 // secondary: "#FF885B",
 
-                // bg: "#141517",
-                bg: "#1b1616",
+                bg: "#0f1214",
             },
         },
     },
