@@ -50,7 +50,7 @@ const renderHomeContainer = () => {
             <h1 className="col-span-full text-nowrap text-center md:col-span-3 md:mr-auto md:text-start">
                 <span>
                     <span className="font-bold text-white">
-                        grow exponentially...
+                        grow exponentially.
                     </span>
                     <br />
                     software engineering & consulting over the years
@@ -60,7 +60,7 @@ const renderHomeContainer = () => {
                 about us
             </CustomButton>
             <h1 className="col-span-2">
-                <span className="text-white">where we reach in</span>
+                <span className="text-white">where we reach in?</span>
                 <br />
                 <span className="font-bold">3+</span>
                 &nbsp;
