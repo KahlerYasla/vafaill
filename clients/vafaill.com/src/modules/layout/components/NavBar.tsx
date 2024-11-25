@@ -15,7 +15,7 @@ interface NavBarProps {
 export const NavBar: React.FC<NavBarProps> = ({ className }) => {
     return (
         <nav
-            className={`w-screen bg-black py-2 shadow-2xl shadow-black xl:pr-2 ${className}`}
+            className={`w-screen bg-black bg-opacity-50 py-2 shadow-2xl shadow-black backdrop-blur-sm xl:pr-2 ${className}`}
         >
             <div className="mx-auto flex w-screen max-w-[1250px] flex-row gap-10 px-12">
                 <div className="flex w-fit items-center gap-0">
