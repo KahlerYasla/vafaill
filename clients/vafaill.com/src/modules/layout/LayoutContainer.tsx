@@ -18,10 +18,17 @@ export const LayoutContainer: React.FC<LayoutContainerProps> = ({
             >
                 <NavBar className="sticky z-50 hidden w-fit text-end md:fixed md:flex" />
 
+                {/* <div>
+                    <img
+                        src="images/banners/0.png"
+                        className="fixed left-0 top-0 mb-4 h-screen w-screen object-cover object-bottom opacity-[.05] grayscale-[0]"
+                    />
+                </div> */}
+
                 <div>
                     <img
                         src="images/banners/0.png"
-                        className="fixed left-0 top-0 mb-4 h-screen w-screen object-cover object-bottom opacity-[.03] grayscale-[0]"
+                        className="absolute left-0 top-0 mb-4 h-64 w-screen object-cover object-bottom opacity-[.1] grayscale-[0]"
                     />
                 </div>
 
