@@ -212,7 +212,7 @@ const renderHomeContainer = () => {
                     expand
                     <BiPlusMedical className="mt-[1px] text-primary" />
                 </button>
-                <div className="col-span-full grid grid-flow-row grid-cols-2 gap-8 grayscale-[1] md:grid-cols-5">
+                <div className="col-span-full grid grid-flow-row grid-cols-2 gap-8 md:grid-cols-5">
                     <button className="custom-border relative h-36 border bg-white bg-opacity-5">
                         <img
                             src="/images/go.png"
@@ -259,9 +259,9 @@ const renderHomeContainer = () => {
                 </button>
 
                 <div className="col-span-full -mt-2 grid grid-flow-row grid-cols-2 gap-8 md:grid-cols-5">
-                    <button className="custom-border relative h-36 overflow-hidden border backdrop-contrast-[90%]">
+                    <button className="custom-border relative h-fit overflow-hidden border backdrop-contrast-[90%]">
                         <img
-                            src="https://media.licdn.com/dms/image/v2/D4D03AQHlX67ha11sRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718352040888?e=1732147200&v=beta&t=bC3ea3aTF8tNx0cNMW2VZtPGy9XddaM3UkW0X3SBgPw"
+                            src="https://media.licdn.com/dms/image/v2/D4D03AQH4LvvBTaK1oA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728729685094?e=1738195200&v=beta&t=N_AiNymnSzwqbn6p8dE1a58vhO3tgo91xSb9q4xNcqA"
                             alt="berkay aslan"
                             className="object-cover opacity-50"
                         />
@@ -269,9 +269,9 @@ const renderHomeContainer = () => {
                             Berkay Aslan
                         </p>
                     </button>
-                    <button className="custom-border relative h-36 overflow-hidden border backdrop-contrast-[90%]">
+                    <button className="custom-border relative h-fit overflow-hidden border backdrop-contrast-[90%]">
                         <img
-                            src="https://media.licdn.com/dms/image/v2/D4D03AQHfJWqJ5rmqVg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709104673222?e=1733356800&v=beta&t=qa4ilDo2JNx8wRJvFScMQl9Ta74SFtLRnSEiCXaPOBo"
+                            src="https://media.licdn.com/dms/image/v2/D4D03AQGffS6xyL19xQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728595164756?e=1738195200&v=beta&t=1Af8YDRQifcjh394XwNldBaZi_eBsLo8z-wQO7yxEHE"
                             alt="selin cirak"
                             className="object-cover opacity-50"
                         />
