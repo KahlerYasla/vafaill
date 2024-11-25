@@ -17,7 +17,7 @@ export const NavBar: React.FC<NavBarProps> = ({ className }) => {
         <nav
             className={`w-screen bg-black py-2 shadow-2xl shadow-black xl:pr-2 ${className}`}
         >
-            <div className="mx-auto flex w-screen max-w-[880px] flex-row gap-10">
+            <div className="mx-auto flex w-screen max-w-[1250px] flex-row gap-10 px-12">
                 <div className="flex w-fit items-center gap-0">
                     <PiTriangleDashed className="text-primary" size={"40px"} />
                     <p className="ml-2 font-bold text-white">vafaill&nbsp;</p>

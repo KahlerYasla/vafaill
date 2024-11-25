@@ -59,6 +59,9 @@ const renderHomeContainer = () => {
             <CustomButton className="col-span col-span-full mx-auto border-b-4 border-primary font-bold text-black md:col-span-1 md:ml-auto md:mr-0">
                 about us
             </CustomButton>
+
+            <CustomSeperator />
+
             <h1 className="col-span-2">
                 <span className="text-white">where we reach in?</span>
                 <br />
@@ -83,9 +86,12 @@ const renderHomeContainer = () => {
                     <span className="">users</span>
                 </div>
             </div>
+
+            <CustomSeperator />
+
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
                 <h1 className="col-span-3 text-white">Offers</h1>
-                <div className="col-span-full grid grid-flow-row grid-cols-2 gap-4 md:grid-cols-5">
+                <div className="col-span-full grid grid-flow-row grid-cols-2 gap-8 md:grid-cols-5">
                     <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
                         <CgWebsite className="mx-auto h-[100%]" size={"25px"} />
                         <p className="absolute right-3 top-2 text-white">
@@ -149,13 +155,15 @@ const renderHomeContainer = () => {
                 </div>
             </div>
 
+            <CustomSeperator />
+
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
                 <h1 className="col-span-3 text-white">Showcase</h1>
                 <button className="flex flex-row items-center justify-end gap-2 text-start text-white">
                     expand
                     <BiPlusMedical className="mt-[1px] text-primary" />
                 </button>
-                <div className="col-span-full -mt-2 grid grid-flow-row grid-cols-2 gap-4 md:grid-cols-5">
+                <div className="col-span-full -mt-2 grid grid-flow-row grid-cols-2 gap-8 md:grid-cols-5">
                     <button className="custom-border relative h-36 border backdrop-contrast-[90%]">
                         <img
                             src="https://picsum.photos/500"
@@ -193,6 +201,9 @@ const renderHomeContainer = () => {
                     </button>
                 </div>
             </div>
+
+            <CustomSeperator />
+
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
                 <h1 className="col-span-3 text-white">
                     Post by categories (3)
@@ -201,7 +212,7 @@ const renderHomeContainer = () => {
                     expand
                     <BiPlusMedical className="mt-[1px] text-primary" />
                 </button>
-                <div className="col-span-full grid grid-flow-row grid-cols-2 gap-4 grayscale-[1] md:grid-cols-5">
+                <div className="col-span-full grid grid-flow-row grid-cols-2 gap-8 grayscale-[1] md:grid-cols-5">
                     <button className="custom-border relative h-36 border bg-white bg-opacity-5">
                         <img
                             src="/images/go.png"
@@ -237,6 +248,9 @@ const renderHomeContainer = () => {
                     </button>
                 </div>
             </div>
+
+            <CustomSeperator />
+
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
                 <h1 className="col-span-3 mb-2 text-white">Team</h1>
                 <button className="flex flex-row items-center justify-end gap-2 text-end text-white">
@@ -244,7 +258,7 @@ const renderHomeContainer = () => {
                     <BiPlusMedical className="mt-[1px] text-primary" />
                 </button>
 
-                <div className="col-span-full -mt-2 grid grid-flow-row grid-cols-2 gap-4 md:grid-cols-5">
+                <div className="col-span-full -mt-2 grid grid-flow-row grid-cols-2 gap-8 md:grid-cols-5">
                     <button className="custom-border relative h-36 overflow-hidden border backdrop-contrast-[90%]">
                         <img
                             src="https://media.licdn.com/dms/image/v2/D4D03AQHlX67ha11sRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718352040888?e=1732147200&v=beta&t=bC3ea3aTF8tNx0cNMW2VZtPGy9XddaM3UkW0X3SBgPw"

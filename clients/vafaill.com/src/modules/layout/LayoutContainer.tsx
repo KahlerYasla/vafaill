@@ -17,10 +17,18 @@ export const LayoutContainer: React.FC<LayoutContainerProps> = ({
                 className={`mx-auto flex min-h-screen w-screen max-w-[1250px] justify-center ${className}`}
             >
                 <NavBar className="sticky z-50 hidden w-fit text-end md:fixed md:flex" />
+
+                <div>
+                    <img
+                        src="images/banners/0.png"
+                        className="fixed left-0 top-0 mb-4 h-screen w-screen object-cover object-bottom opacity-[.03] grayscale-[5]"
+                    />
+                </div>
+
                 <div className="relative mt-16 px-6">
                     <Outlet />
                     {/* expander */}
-                    <div className="w-[900px]"></div>
+                    <div className="w-[1200px]"></div>
                 </div>
                 {/* <Footer /> */}
                 <button className="fixed bottom-5 left-5 rounded-full bg-primary bg-opacity-30 p-3 md:hidden">
