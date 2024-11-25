@@ -21,7 +21,7 @@ export const LayoutContainer: React.FC<LayoutContainerProps> = ({
                 <div>
                     <img
                         src="images/banners/0.png"
-                        className="fixed left-0 top-0 mb-4 h-screen w-screen object-cover object-bottom opacity-[.03] grayscale-[5]"
+                        className="fixed left-0 top-0 mb-4 h-screen w-screen object-cover object-bottom opacity-[.03] grayscale-[0]"
                     />
                 </div>
 

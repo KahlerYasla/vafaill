@@ -62,33 +62,6 @@ const renderHomeContainer = () => {
 
             <CustomSeperator />
 
-            <h1 className="col-span-2">
-                <span className="text-white">where we reach in?</span>
-                <br />
-                <span className="font-bold">3+</span>
-                &nbsp;
-                <span className="">years</span>
-            </h1>
-            <div className="col-span-full flex justify-around text-center md:col-span-2 md:mt-0 md:justify-end md:gap-16">
-                <div className="">
-                    <span className="font-bold text-white">10+</span>
-                    <br />
-                    <span className="">partners</span>
-                </div>
-                <div className="">
-                    <span className="font-bold text-white">4+</span>
-                    <br />
-                    <span className="">countries</span>
-                </div>
-                <div className="">
-                    <span className="font-bold text-white">4M+</span>
-                    <br />
-                    <span className="">users</span>
-                </div>
-            </div>
-
-            <CustomSeperator />
-
             <div className="col-span-full grid grid-flow-row grid-cols-4 gap-y-4">
                 <h1 className="col-span-3 text-white">Offers</h1>
                 <div className="col-span-full grid grid-flow-row grid-cols-2 gap-8 md:grid-cols-5">
