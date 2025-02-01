@@ -1,10 +1,9 @@
-import React from "react"
 import ReactDOM from "react-dom/client"
 import "./index.css"
 
 // Client-side routing
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { LayoutView, NotFoundView } from "./packages/react/layout"
+import { LayoutView, NotFoundView } from "./modules/layout"
 
 // Routed Components
 

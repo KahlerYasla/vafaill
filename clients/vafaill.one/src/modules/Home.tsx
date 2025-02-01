@@ -9,7 +9,6 @@ import { FcGoogle } from "react-icons/fc"
 import { FaAppStore } from "react-icons/fa"
 
 import Typewriter from "typewriter-effect"
-import { CButton } from "../packages/react/core"
 
 import { Line, Bar } from "react-chartjs-2"
 import {
@@ -23,6 +22,7 @@ import {
     Tooltip,
     Legend,
 } from "chart.js"
+import { CButton } from "./core"
 
 // Registering necessary chart components
 ChartJS.register(
