@@ -1,9 +1,27 @@
-import { StrictMode } from "react"
-import { createRoot } from "react-dom/client"
+import React from "react"
+import ReactDOM from "react-dom/client"
 import "./index.css"
 
-createRoot(document.getElementById("root")!).render(
-    <StrictMode>
-        <div className="bg-primary">test0</div>
-    </StrictMode>
-)
+// Client-side routing
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { LayoutView, NotFoundView } from "./packages/react/layout"
+
+// Routed Components
+
+const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement)
+
+const App = () => {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<LayoutView />}>
+                    {/* <Route index element={<LoginView />} />
+                    <Route path="home" element={<HomeView />} /> */}
+                    <Route path="*" element={<NotFoundView />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    )
+}
+
+root.render(<App />)
