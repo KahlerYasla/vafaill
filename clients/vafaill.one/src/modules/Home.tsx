@@ -114,6 +114,11 @@ const Home: React.FC = () => {
                                 .typeString(
                                     "Skill Meets Passion – 4 Masters, One Unstoppable Team."
                                 )
+                                .pauseFor(3000) // Wait 2 seconds before deleting
+                                .deleteAll(0)
+                                .typeString(
+                                    "Haters say this much testosterone is not possible."
+                                )
                                 .pauseFor(3000)
                                 .deleteAll(0)
                                 .start()
