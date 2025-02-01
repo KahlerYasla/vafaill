@@ -11,7 +11,6 @@ const CLogoSection: React.FC<CLogoSectionProps> = ({
     lightMode = false,
     className = "",
     isHorizontal = false,
-    logoSize = 16,
 }: CLogoSectionProps) => {
     return (
         <div

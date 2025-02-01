@@ -1,4 +1,3 @@
-import React, { useState } from "react"
 import Alert from "../types/Alert"
 
 const CAlert: React.FC<Alert> = ({ id, message, onClose, className, type }) => {

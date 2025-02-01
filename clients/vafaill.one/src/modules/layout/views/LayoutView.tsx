@@ -1,11 +1,10 @@
-import { Outlet, useLocation } from "react-router-dom"
 import React from "react"
 
 // Components
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import AlertView from "../../core/views/CAlertView"
-import Home from "../../../../modules/Home"
+import Home from "../../Home"
 
 interface LayoutViewProps {
     className?: string
