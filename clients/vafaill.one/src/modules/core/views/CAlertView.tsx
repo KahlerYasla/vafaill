@@ -12,12 +12,6 @@ const AlertView: React.FC<AlertViewProps> = () => {
     const [alerts, setAlerts] = useState<Alert[]>([])
 
     // Adds an alert to the stack with a countdown
-    const addAlert = (newAlert: Alert) => {
-        setAlerts((prevAlerts) => [
-            ...prevAlerts,
-            { ...newAlert, countdown: newAlert.countdown ?? 10 }, // Default countdown 10 seconds
-        ])
-    }
 
     // Removes an alert by ID
     const removeAlert = (id: string) => {
